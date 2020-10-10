@@ -24,6 +24,7 @@ function linearc_events_plugin_dir_url(){
 
 require_once plugin_dir_path( __FILE__ ).'/classes/Updater.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/custom-post-type-events.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/shortcodes.php';
 
 if ( is_admin() ) {
     new Linearc\Plugin\Events\Updater( __FILE__, 'Linearc-Inc', "wp-linearc-events" ,"0345013c4ec53e41c7523332c1c61ef2fc745a41" );

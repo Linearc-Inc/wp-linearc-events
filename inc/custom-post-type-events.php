@@ -17,6 +17,7 @@ function events_custom_post_type()
         'menu_name' => 'Events',
         'name_admin_bar' => 'Events',
     );
+    
     $args = array(
         'labels' => $labels,
         'show_ui' => true,
