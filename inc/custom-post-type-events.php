@@ -21,7 +21,7 @@ function events_custom_post_type()
     $args = array(
         'labels' => $labels,
         'show_ui' => true,
-        'show_in_menu' => true,
+        'show_in_menu' => 'index.php',
         'show_in_rest' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
